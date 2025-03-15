@@ -11,16 +11,23 @@ a news summarization application using LangChain that retrieves articles on spec
 
 
 
-   Usage
+Usage
+
+   
 Run the application from the command line:
+```bash
 python main.py --user <user_id> --topic "<topic>" --summary-type <brief|detailed>
-
-Examples
-Save a topic of interest:
+```
+##Examples
+###Save a topic of interest:
+```bash
 python main.py --user 123 --save-topic "Artificial Intelligence"
-
+```
 Search for news and get a brief summary:
+```bash
 python main.py --user 123 --topic "Artificial Intelligence" --summary-type brief
-
-View user preferences and search history:
+```
+##View user preferences and search history:
+```bash
 python main.py --user 123
+```
